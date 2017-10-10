@@ -11,9 +11,9 @@ using DevExpress.XtraEditors;
 
 namespace BachHoaXanh
 {
-    public partial class frm_DangNhap : DevExpress.XtraEditors.XtraForm
+    public partial class frm_DoiNguoiDung : DevExpress.XtraEditors.XtraForm
     {
-        public frm_DangNhap()
+        public frm_DoiNguoiDung()
         {
             InitializeComponent();
         }

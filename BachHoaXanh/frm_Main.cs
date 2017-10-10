@@ -25,13 +25,14 @@ namespace BachHoaXanh
         }
         private void barDangNhap_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frm_DangNhap frm = new frm_DangNhap();
+            frm_DoiNguoiDung frm = new frm_DoiNguoiDung();
             addform(frm);
         }
 
         private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            
+            frm_HuongDanSuDung frm = new frm_HuongDanSuDung();
+            addform(frm);
         }
         private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -63,6 +64,7 @@ namespace BachHoaXanh
             addform(frm);
         }
 
+<<<<<<< HEAD
         private void barButtonItem25_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frm_KhachHang frm = new frm_KhachHang();
@@ -84,6 +86,23 @@ namespace BachHoaXanh
         private void barButtonItem30_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frm_TyGia frm = new frm_TyGia();
+=======
+        private void barButtonItem22_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_ThongTin frm = new frm_ThongTin();
+            addform(frm);
+        }
+
+        private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_NhapHang frm = new frm_NhapHang();
+            addform(frm);
+        }
+
+        private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_TonHang frm = new frm_TonHang();
+>>>>>>> 26c13c3a11163bd3e47d3c29b80ad81206cc8796
             addform(frm);
         }
     }

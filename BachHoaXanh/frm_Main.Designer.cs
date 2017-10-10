@@ -208,6 +208,7 @@
             this.barButtonItem8.Id = 9;
             this.barButtonItem8.LargeGlyph = global::BachHoaXanh.Properties.Resources.com_clr_cash_out_128;
             this.barButtonItem8.Name = "barButtonItem8";
+            this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
             // 
             // barButtonItem9
             // 
@@ -256,6 +257,7 @@
             this.barButtonItem15.Id = 16;
             this.barButtonItem15.LargeGlyph = global::BachHoaXanh.Properties.Resources.com_clr_package_256;
             this.barButtonItem15.Name = "barButtonItem15";
+            this.barButtonItem15.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem15_ItemClick);
             // 
             // barButtonItem16
             // 
@@ -306,6 +308,7 @@
             this.barButtonItem22.Id = 25;
             this.barButtonItem22.LargeGlyph = global::BachHoaXanh.Properties.Resources.Info;
             this.barButtonItem22.Name = "barButtonItem22";
+            this.barButtonItem22.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem22_ItemClick);
             // 
             // barButtonItem23
             // 
