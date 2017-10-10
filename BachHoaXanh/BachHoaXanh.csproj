@@ -80,11 +80,29 @@
     <Compile Include="frm_BanHang.Designer.cs">
       <DependentUpon>frm_BanHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_HuongDanSuDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HuongDanSuDung.Designer.cs">
+      <DependentUpon>frm_HuongDanSuDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Main.Designer.cs">
       <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NhapHang.Designer.cs">
+      <DependentUpon>frm_NhapHang.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_PhucHoiDuLieu.cs">
       <SubType>Form</SubType>
@@ -98,13 +116,31 @@
     <Compile Include="frm_SaoLuuDuLieu.Designer.cs">
       <DependentUpon>frm_SaoLuuDuLieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="frm_DangNhap.cs">
+    <Compile Include="frm_Server.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_DangNhap.Designer.cs">
-      <DependentUpon>frm_DangNhap.cs</DependentUpon>
+    <Compile Include="frm_Server.Designer.cs">
+      <DependentUpon>frm_Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThongTin.Designer.cs">
+      <DependentUpon>frm_ThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TonHang.Designer.cs">
+      <DependentUpon>frm_TonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frm_DoiNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DoiNguoiDung.Designer.cs">
+      <DependentUpon>frm_DoiNguoiDung.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_DoiMatKhau.cs">
       <SubType>Form</SubType>
@@ -138,14 +174,23 @@
     <EmbeddedResource Include="frm_BanHang.resx">
       <DependentUpon>frm_BanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_DangNhap.resx">
-      <DependentUpon>frm_DangNhap.cs</DependentUpon>
+    <EmbeddedResource Include="frm_DoiNguoiDung.resx">
+      <DependentUpon>frm_DoiNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_DoiMatKhau.resx">
       <DependentUpon>frm_DoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_HuongDanSuDung.resx">
+      <DependentUpon>frm_HuongDanSuDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Main.resx">
       <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NhapHang.resx">
+      <DependentUpon>frm_NhapHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_PhanQuyen.resx">
       <DependentUpon>frm_PhanQuyen.cs</DependentUpon>
@@ -156,8 +201,17 @@
     <EmbeddedResource Include="frm_SaoLuuDuLieu.resx">
       <DependentUpon>frm_SaoLuuDuLieu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Server.resx">
+      <DependentUpon>frm_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThongTin.resx">
+      <DependentUpon>frm_ThongTin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_ThongTinNguoiDung.resx">
       <DependentUpon>frm_ThongTinNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TonHang.resx">
+      <DependentUpon>frm_TonHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -312,6 +366,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\switch_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database-Setting-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ban-hang.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

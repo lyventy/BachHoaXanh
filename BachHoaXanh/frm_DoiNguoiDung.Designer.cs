@@ -1,6 +1,6 @@
 ﻿namespace BachHoaXanh
 {
-    partial class frm_DangNhap
+    partial class frm_DoiNguoiDung
     {
         /// <summary>
         /// Required designer variable.
@@ -171,7 +171,7 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Springtime";
             // 
-            // frm_DangNhap
+            // frm_DoiNguoiDung
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
             this.Appearance.Options.UseBackColor = true;
@@ -180,7 +180,7 @@
             this.ClientSize = new System.Drawing.Size(554, 324);
             this.Controls.Add(this.navigationFrame);
             this.Controls.Add(this.tileBar);
-            this.Name = "frm_DangNhap";
+            this.Name = "frm_DoiNguoiDung";
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).EndInit();
             this.navigationFrame.ResumeLayout(false);
             this.employeesNavigationPage.ResumeLayout(false);
