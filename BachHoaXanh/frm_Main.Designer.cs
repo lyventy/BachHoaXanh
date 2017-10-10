@@ -323,6 +323,7 @@
             this.barButtonItem24.LargeGlyph = global::BachHoaXanh.Properties.Resources.khuvuc;
             this.barButtonItem24.LargeWidth = 50;
             this.barButtonItem24.Name = "barButtonItem24";
+            this.barButtonItem24.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem24_ItemClick);
             // 
             // barButtonItem25
             // 
@@ -331,6 +332,7 @@
             this.barButtonItem25.LargeGlyph = global::BachHoaXanh.Properties.Resources.khachhang;
             this.barButtonItem25.LargeWidth = 60;
             this.barButtonItem25.Name = "barButtonItem25";
+            this.barButtonItem25.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem25_ItemClick);
             // 
             // barButtonItem26
             // 
@@ -347,6 +349,7 @@
             this.barButtonItem27.LargeGlyph = global::BachHoaXanh.Properties.Resources.kho;
             this.barButtonItem27.LargeWidth = 60;
             this.barButtonItem27.Name = "barButtonItem27";
+            this.barButtonItem27.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem27_ItemClick);
             // 
             // barButtonItem28
             // 
@@ -371,6 +374,7 @@
             this.barButtonItem30.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem30.LargeGlyph")));
             this.barButtonItem30.LargeWidth = 60;
             this.barButtonItem30.Name = "barButtonItem30";
+            this.barButtonItem30.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem30_ItemClick);
             // 
             // barButtonItem31
             // 

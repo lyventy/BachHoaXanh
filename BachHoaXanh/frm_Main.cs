@@ -62,5 +62,29 @@ namespace BachHoaXanh
             t frm = new t();
             addform(frm);
         }
+
+        private void barButtonItem25_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_KhachHang frm = new frm_KhachHang();
+            addform(frm);
+        }
+
+        private void barButtonItem27_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_Kho frm = new frm_Kho();
+            addform(frm);
+        }
+
+        private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_KhuVuc frm = new frm_KhuVuc();
+            addform(frm);
+        }
+
+        private void barButtonItem30_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_TyGia frm = new frm_TyGia();
+            addform(frm);
+        }
     }
 }
